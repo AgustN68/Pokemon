@@ -6,6 +6,6 @@ public class Planta extends Tipo{
 
     @Override
     public boolean esIgual(Tipo tipo) {
-        return this.equals(tipo.);
+        return this == tipo;
     }
 }
